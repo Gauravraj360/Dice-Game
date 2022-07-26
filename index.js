@@ -7,10 +7,10 @@ var images1 = "images/dice"+ randomNumber1 +".png";
 var images2="images/dice"+ randomNumber2 +".png";
 
 if(randomNumber1>randomNumber2){
-    result="player1 wins!";
+    result="🚩player1 wins!";
 }
 else if(randomNumber2>randomNumber1){
-    result="player2 wins!";
+    result="player2 wins!🚩";
 }
 else{
     result="Draw.";
